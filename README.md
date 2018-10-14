@@ -1,5 +1,7 @@
 Exploratory testing steps for EE
 
+Automated test to create a Booking
+
 
 The purpose of the exercise it to help us understand how my approach to Exploratory testing of http://hotel-test.equalexperts.io/ 
 
