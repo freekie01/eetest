@@ -1,0 +1,83 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#shopping basket features"
+          }
+        ],
+        "line": 5,
+        "name": "add to basket",
+        "description": "",
+        "id": "basket;add-to-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4944781253,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that i am on the booking website",
+            "match": {
+              "location": "Basket.that_i_am_on_the_booking_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 695439147,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i add all mandatory items",
+            "match": {
+              "location": "Basket.i_add_all_mandatory_items()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81062745,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i save the booking",
+            "match": {
+              "location": "Basket.i_save_the_booking()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45131789,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Fiona]\u003e but was:\u003c[Reekie]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat bindings.Basket.i_can_see_the_saved_booking(Basket.java:65)\r\n\tat ✽.Then I can see the saved booking(basket.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I can see the saved booking",
+            "match": {
+              "location": "Basket.i_can_see_the_saved_booking()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "basket",
+    "description": "",
+    "id": "basket",
+    "keyword": "Feature",
+    "uri": "basket.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  }
+]
