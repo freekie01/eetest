@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4944781253,
+              "duration": 4830751296,
               "status": "passed"
             },
             "line": 6,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 695439147,
+              "duration": 721104015,
               "status": "passed"
             },
             "line": 7,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 81062745,
+              "duration": 89547413,
               "status": "passed"
             },
             "line": 8,
@@ -54,9 +54,8 @@
           },
           {
             "result": {
-              "duration": 45131789,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Fiona]\u003e but was:\u003c[Reekie]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat bindings.Basket.i_can_see_the_saved_booking(Basket.java:65)\r\n\tat ✽.Then I can see the saved booking(basket.feature:9)\r\n",
-              "status": "failed"
+              "duration": 50513428,
+              "status": "passed"
             },
             "line": 9,
             "name": "I can see the saved booking",

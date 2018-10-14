@@ -50,29 +50,28 @@ formatter.match({
   "location": "Basket.that_i_am_on_the_booking_website()"
 });
 formatter.result({
-  "duration": 4944781253,
+  "duration": 4830751296,
   "status": "passed"
 });
 formatter.match({
   "location": "Basket.i_add_all_mandatory_items()"
 });
 formatter.result({
-  "duration": 695439147,
+  "duration": 721104015,
   "status": "passed"
 });
 formatter.match({
   "location": "Basket.i_save_the_booking()"
 });
 formatter.result({
-  "duration": 81062745,
+  "duration": 89547413,
   "status": "passed"
 });
 formatter.match({
   "location": "Basket.i_can_see_the_saved_booking()"
 });
 formatter.result({
-  "duration": 45131789,
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Fiona]\u003e but was:\u003c[Reekie]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat bindings.Basket.i_can_see_the_saved_booking(Basket.java:65)\r\n\tat ✽.Then I can see the saved booking(basket.feature:9)\r\n",
-  "status": "failed"
+  "duration": 50513428,
+  "status": "passed"
 });
 });

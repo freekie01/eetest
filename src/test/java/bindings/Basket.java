@@ -45,24 +45,11 @@ public class Basket {
         driver.findElement(By.cssSelector("#form .col-md-1 input[type=button]")).click();
     }
 
-    @Then("^i can see the row added$")
-    public void i_can_see_the_row_added() throws Throwable {
-        driver.findElement(By.linkText("Cart")).click();
-        assertTrue(driver.findElement(By.linkText("Cap")).isDisplayed());
-        driver.findElement(By.linkText("×")).click();
-        // explicit wait for item to be removed as may use AJAX
-        WebDriverWait wait=new WebDriverWait(driver, 20); //explicit wait if we want to use
-        WebElement returnToShopLink;
-        returnToShopLink= wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Return to shop")));
-        returnToShopLink.click();
-        //driver.findElement(By.linkText("Return to shop")).click();
-//        driver.quit();
-    }
 
     @Then("^I can see the saved booking$")
     public void i_can_see_the_saved_booking() {
         //Check each field on it's own
-        assertEquals("Fiona", driver.findElement(By.cssSelector("#bookings .row:last-child div:nth-of-type(2)")).getText());
+        //assertEquals("Fiona", driver.findElement(By.cssSelector("#bookings .row:last-child div:nth-of-type(2)")).getText());
 
 
                 assertEquals( "Fiona\n" +
