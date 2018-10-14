@@ -14,4 +14,4 @@ See the files named below:
 * [Queries](Queries.md)
 
 To run the automated test use maven
-'command : mvn test'
+command : 'mvn test'
